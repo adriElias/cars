@@ -1,15 +1,9 @@
 package org.cars;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    public static void main(String[] args) {
+        Car car1 = new Car("Focus");
+        Car.brake();
+        car1.accelerate();
     }
-
-    Car car1 = new Car("Focus");
 }
