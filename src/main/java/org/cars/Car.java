@@ -5,4 +5,7 @@ public class Car {
     private static String model;
     private final int power = 125;
 
+    public Car(String model){
+        Car.model = model;
+    }
 }

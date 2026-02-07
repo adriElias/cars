@@ -20,3 +20,17 @@ Main:
 - Each car keeps its own `power`
 
 🚗 Built with Conventional Commits
+
+**QUESTIONS**
+Which of these attributes can be initialized by the constructor?
+- Model 
+```java
+public void Cars(String model){
+        Car.model = model;
+}
+```
+Which one can never be modified?
+- Brand is static final attribute.
+
+Which one affects all instances of the class?
+- Brand and model because are static attributes.
